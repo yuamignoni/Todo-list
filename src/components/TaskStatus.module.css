@@ -1,0 +1,43 @@
+.wrapper {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 46rem;
+}
+
+.completed {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: var(--purple);
+}
+
+.created {
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: var(--blue);
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 8px;
+    gap: 10px;
+    background: var(--gray-400);
+    color: var(--gray-200);
+    font-size: 0.75rem;
+    border-radius: 999px;
+}

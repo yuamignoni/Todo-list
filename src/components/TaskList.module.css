@@ -1,0 +1,71 @@
+.complete {
+    font-size: 0.875rem;
+    text-decoration-line: line-through;
+    color: var(--gray-300)
+}
+
+.incomplete {
+
+    font-size: 0.875rem;
+    color: var(--gray-100)
+}
+
+.roundedCheckbox {
+    align-items: flex-start;
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid var(--blue);
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.roundedCheckbox:checked {
+    clip-path: circle(50% at 50% 50%);
+    border: none;
+    background: var(--purple-dark) url('../assets/check.svg') center no-repeat;
+}
+
+.roundedCheckbox:checked:hover {
+    background: var(--purple) url('../assets/purplecheck.svg') center no-repeat;
+    border: none;
+}
+
+.roundedCheckbox:focus {
+    outline: transparent;
+    box-shadow: none;
+}
+
+.roundedCheckbox:hover {
+    border: 1px solid var(--blue-dark);
+}
+
+.wrapper {
+    background: var(--gray-500);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.content {
+    color: var(--grar-100)
+}
+
+.trash:hover {
+    background: var(--gray-400);
+    color: var(--red-500);
+}
+
+.deleteButton {
+    display: flex;
+    background: none;
+    border: none;
+    color: var(--gray-300);
+}
