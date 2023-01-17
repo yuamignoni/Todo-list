@@ -3,7 +3,6 @@ import plus from '../assets/plus.svg'
 import { ChangeEvent, FormEvent, useState } from 'react';
 
 interface IInput {
-  handleDeleteInput: (id: string) => void;
   handleInput: (text: string) => void;
 }
 
